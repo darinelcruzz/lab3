@@ -95,3 +95,7 @@
 </section>
 
 @endsection
+
+@section('contact')
+	@include('public.partials.contact')
+@endsection

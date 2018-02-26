@@ -21,10 +21,10 @@
 			<!-- Menu -->
 			<nav id="menu">
 				<ul class="links">
-					<li><a href="index.html">Inicio</a></li>
-					<li><a href="landing.html">Nosotros</a></li>
+					<li><a href="index">Inicio</a></li>
+					<li><a href="landing">Nosotros</a></li>
 					<li><a href="generic">Clientes</a></li>
-					<li><a href="elements.html">Otros</a></li>
+					<li><a href="elements">Otros</a></li>
 				</ul>
 				<!--ul class="actions vertical">
 					<li><a href="#" class="button special fit">Get Started</a></li>
