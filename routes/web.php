@@ -12,5 +12,14 @@
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('public.index');
+});
+Route::get('generic', function () {
+    return view('public.generic');
+});
+Route::get('landing', function () {
+    return view('public.landing');
+});
+Route::get('elements', function () {
+    return view('public.elements');
 });
