@@ -12,14 +12,24 @@
 */
 
 Route::get('/', function () {
-    return view('public.index');
+    return view('web.index');
 });
+
 Route::get('generic', function () {
-    return view('public.generic');
+    return view('web.generic');
 });
+
 Route::get('landing', function () {
-    return view('public.landing');
+    return view('web.landing');
 });
+
 Route::get('elements', function () {
-    return view('public.elements');
+    return view('web.elements');
+});
+
+Route::group(['prefix' => 'plantillas', 'as' => 'template.'], function () {
+	$ctrl = 'TemplateController';
+
+	Route::get('/', usesas($ctrl, 'index'));
+	Route::get('{template}', usesas($ctrl, 'show'));
 });
