@@ -3,7 +3,7 @@
 
 	<!-- Header -->
 		<header id="header" class="alt">
-			<span class="logo"><a href="index.html">Atmosphere</a> <span>by Pixelarity</span></span>
+			<span class="logo"><a href="#">Atmosphere</a></span>
 			<a href="#menu">Menu</a>
 		</header>
 
@@ -12,13 +12,12 @@
 			<div class="inner">
 				<h2>Menu</h2>
 				<ul class="links">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="generic.html">Generic</a></li>
-					<li><a href="elements.html">Elements</a></li>
-					<li><a href="#">Log In</a></li>
-					<li><a href="#">Sign Up</a></li>
+					<li><a href="#">Inicio</a></li>
+					<li><a href="#">Nosotros</a></li>
+					<li><a href="#">Clientes</a></li>
+					<li><a href="#">Contacto</a></li>
 				</ul>
-				<a class="close">Close</a>
+				<a class="close">Cerrar</a>
 			</div>
 		</nav>
 

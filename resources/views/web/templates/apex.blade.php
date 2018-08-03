@@ -1,31 +1,28 @@
 <!-- Header -->
 <header id="header">
 	<div class="inner">
-		<a class="logo" href="index.html"><strong>{{ ucfirst($template) }}</strong></a>
+		<a class="logo" href="#"><strong>{{ ucfirst($template) }}</strong></a>
 		<nav id="nav">
 			<ul>
-				<li><a href="index.html">Inicio</a></li>
+				<li><a href="#">Inicio</a></li>
 				<li>
-					<a href="#">Dropdown</a>
+					<a href="#">Nosotros</a>
 					<ul>
-						<li><a href="#">Magna tempus</a></li>
-						<li><a href="#">Etiam lorem facilis</a></li>
-						<li><a href="#">Veroeros consequat</a></li>
+						<li><a href="#">Ubicación</a></li>
+						<li><a href="#">Redes</a></li>
+						<li><a href="#">Proyectos</a></li>
 						<li>
-							<a href="#">Dolore sed magna</a>
+							<a href="#">Desarrolladores</a>
 							<ul>
-								<li><a href="#">Magna tempus</a></li>
-								<li><a href="#">Etiam lorem facilis</a></li>
-								<li><a href="#">Veroeros consequat</a></li>
-								<li><a href="#">Dolore sed magna</a></li>
-								<li><a href="#">Nisl sed adipiscing</a></li>
+								<li><a href="#">Quique</a></li>
+								<li><a href="#">Vic</a></li>
+								<li><a href="#">Dari</a></li>
 							</ul>
 						</li>
-						<li><a href="#">Nisl sed adipiscing</a></li>
 					</ul>
 				</li>
-				<li><a href="generic.html">Generic</a></li>
-				<li><a href="elements.html">Elements</a></li>
+				<li><a href="#">Clientes</a></li>
+				<li><a href="#">Contacto</a></li>
 			</ul>
 		</nav>
 	</div>
@@ -35,7 +32,7 @@
 <div id="banner">
 	<article data-position="bottom right">
 		<div class="inner">
-			<img src="images/banner01.jpg" alt="">
+			<img src="{{ asset("templates/apex/images/banner0 1.jpg") }}" alt="">
 			<div class="features">
 				<a href="#" class="accent1 alt">
 					<h2>Amet lorem dolore</h2>
@@ -46,7 +43,7 @@
 	</article>
 	<article data-position="bottom right">
 		<div class="inner">
-			<img src="images/banner02.jpg" alt="">
+			<img src="{{ asset("templates/apex/images/banner02.jpg") }}" alt="">
 			<div class="features">
 				<a href="#" class="accent1 alt">
 					<h2>Magna sed ipsum</h2>
@@ -57,7 +54,7 @@
 	</article>
 	<article data-position="bottom right">
 		<div class="inner">
-			<img src="images/banner03.jpg" alt="">
+			<img src="{{ asset("templates/apex/images/banner03.jpg") }}" alt="">
 			<div class="features">
 				<a href="#" class="accent1 alt">
 					<h2>Veroeros blandit</h2>
@@ -96,7 +93,7 @@
 					<p>Phasellus dapibus convallis scelerisque. Donec tempus augue id tortor ultricies eget sed pellentesque turpis ultrices. Vestibulum ut nulla sem, vel iaculis arcu. Nulla vel lorem nisl, quis ultricies tellus. Nunc imperdiet elit sed dolore lacus venenatis urna dolor est sagittis laoreet. Phasellus dapibus convallis scelerisque. Donec tempus augue id tortor ultricies eget pellentesque turpis ultrices. Vestibulum ut nulla sem.</p>
 					<section class="posts">
 						<article>
-							<div class="image fit"><a href="#"><img src="images/pic01.jpg" alt="" /></a></div>
+							<div class="image fit"><a href="#"><img src="{{ asset("templates/apex/images/pic01.jpg") }}" alt="" /></a></div>
 							<h2>Magna lorem feugiat</h2>
 							<p>Nulla sem, vel iaculis arcu. Nulla vel lorem nisl quis sed ultricies amet tellus magna feugiat.</p>
 							<ul class="actions fixed">
@@ -104,7 +101,7 @@
 							</ul>
 						</article>
 						<article>
-							<div class="image fit"><a href="#"><img src="images/pic02.jpg" alt="" /></a></div>
+							<div class="image fit"><a href="#"><img src="{{ asset("templates/apex/images/pic02.jpg") }}" alt="" /></a></div>
 							<h2>Tempus sed aliquam</h2>
 							<p>Nulla sem, vel iaculis arcu. Nulla vel lorem nisl quis sed ultricies amet tellus magna feugiat.</p>
 							<ul class="actions fixed">
@@ -112,7 +109,7 @@
 							</ul>
 						</article>
 						<article>
-							<div class="image fit"><a href="#"><img src="images/pic03.jpg" alt="" /></a></div>
+							<div class="image fit"><a href="#"><img src="{{ asset("templates/apex/images/pic03.jpg") }}" alt="" /></a></div>
 							<h2>Lorem elit ipsum</h2>
 							<p>Nulla sem, vel iaculis arcu. Nulla vel lorem nisl quis sed ultricies amet tellus magna feugiat.</p>
 							<ul class="actions fixed">
@@ -120,7 +117,7 @@
 							</ul>
 						</article>
 						<article>
-							<div class="image fit"><a href="#"><img src="images/pic04.jpg" alt="" /></a></div>
+							<div class="image fit"><a href="#"><img src="{{ asset("templates/apex/images/pic04.jpg") }}" alt="" /></a></div>
 							<h2>Rutrum et imperdiet</h2>
 							<p>Nulla sem, vel iaculis arcu. Nulla vel lorem nisl quis sed ultricies amet tellus magna feugiat.</p>
 							<ul class="actions fixed">
@@ -137,7 +134,7 @@
 					</header>
 					<section class="mini-posts">
 						<article>
-							<div class="image"><a href="#"><img src="images/pic05.jpg" alt="" /></a></div>
+							<div class="image"><a href="#"><img src="{{ asset("templates/apex/images/pic05.jpg") }}" alt="" /></a></div>
 							<div class="content">
 								<p>Amet vel iaculis tempus lorem nisl amet quis sed ultricies amet sed tellus magna elit sed dolore lacus venenatis rutrum et vulputate dolor est sagittis purus laoreet. Nunc imperdiet tempus.</p>
 								<ul class="actions fixed">
@@ -146,7 +143,7 @@
 							</div>
 						</article>
 						<article>
-							<div class="image"><a href="#"><img src="images/pic06.jpg" alt="" /></a></div>
+							<div class="image"><a href="#"><img src="{{ asset("templates/apex/images/pic06.jpg") }}" alt="" /></a></div>
 							<div class="content">
 								<p>Ultricies amet sed tellus magna elit sed dolore lacus venenatis rutrum et vulputate dolor est sagittis purus laoreet. Nunc imperdiet tempus. Amet vel iaculis tempus lorem nisl amet quis magna.</p>
 								<ul class="actions fixed">
@@ -155,7 +152,7 @@
 							</div>
 						</article>
 						<article>
-							<div class="image"><a href="#"><img src="images/pic07.jpg" alt="" /></a></div>
+							<div class="image"><a href="#"><img src="{{ asset("templates/apex/images/pic07.jpg") }}" alt="" /></a></div>
 							<div class="content">
 								<p>Lacus venenatis rutrum et vulputate dolor est sagittis purus laoreet. Nunc imperdiet tempus. Amet vel iaculis tempus lorem nisl amet quis sed ultricies amet sed tellus magna elit sed dolore veroeros.</p>
 								<ul class="actions fixed">
@@ -193,28 +190,28 @@
 				</header>
 				<section class="mini-posts small">
 					<article>
-						<div class="image"><a href="#"><img src="images/pic08.jpg" alt="" /></a></div>
+						<div class="image"><a href="#"><img src="{{ asset("templates/apex/images/pic08.jpg") }}" alt="" /></a></div>
 						<div class="content">
 							<a href="#">Nulla sem, vel iaculis arcu magna et tempus consequat.</a>
 							<div class="timestamp">8 hours ago</div>
 						</div>
 					</article>
 					<article>
-						<div class="image"><a href="#"><img src="images/pic09.jpg" alt="" /></a></div>
+						<div class="image"><a href="#"><img src="{{ asset("templates/apex/images/pic09.jpg") }}" alt="" /></a></div>
 						<div class="content">
 							<a href="#">Amet vel iaculis tempus lorem nisl amet quis sed ultricies amet.</a>
 							<div class="timestamp">14 hours ago</div>
 						</div>
 					</article>
 					<article>
-						<div class="image"><a href="#"><img src="images/pic10.jpg" alt="" /></a></div>
+						<div class="image"><a href="#"><img src="{{ asset("templates/apex/images/pic10.jpg") }}" alt="" /></a></div>
 						<div class="content">
 							<a href="#">Magna elit sed dolore lacus venenatis rutrum et vulputate dolor.</a>
 							<div class="timestamp">1 day ago</div>
 						</div>
 					</article>
 					<article>
-						<div class="image"><a href="#"><img src="images/pic11.jpg" alt="" /></a></div>
+						<div class="image"><a href="#"><img src="{{ asset("templates/apex/images/pic11.jpg") }}" alt="" /></a></div>
 						<div class="content">
 							<a href="#">Rutrum et vulputate dolor est sagittis purus laoreet. Nunc imperdiet.</a>
 							<div class="timestamp">2 days ago</div>
