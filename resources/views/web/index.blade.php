@@ -25,7 +25,7 @@
 			<img src="{{ asset('forty/images/pic01.jpg') }}" alt="" />
 		</span>
 		<header class="major">
-			<h3><a href="landing.html" class="link">Aliquam</a></h3>
+			<h3><a href="#" class="link">Aliquam</a></h3>
 			<p>Ipsum dolor sit amet</p>
 		</header>
 	</article>
@@ -97,5 +97,5 @@
 @endsection
 
 @section('contact')
-	@include('public.partials.contact')
+	@include('web.partials.contact')
 @endsection

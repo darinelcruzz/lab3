@@ -12,7 +12,7 @@
 		<div id="wrapper">
 			<!-- Header -->
 			<header id="header" class="alt">
-				<a href="#" class="logo"><strong>LAB3</strong> <span>Software</span></a>
+				<a href="/" class="logo"><strong>LAB3</strong> <span>Software</span></a>
 				<nav>
 					<a href="#menu">Menu</a>
 				</nav>
@@ -21,7 +21,7 @@
 			<!-- Menu -->
 			<nav id="menu">
 				<ul class="links">
-					<li><a href="index">Inicio</a></li>
+					<li><a href="/">Inicio</a></li>
 					<li><a href="landing">Nosotros</a></li>
 					<li><a href="generic">Clientes</a></li>
 					<li><a href="elements">Otros</a></li>
