@@ -3,7 +3,7 @@
 
 	<!-- Header -->
 		<header id="header" class="alt">
-			<span class="logo"><a href="#">Atmosphere</a></span>
+			<span class="logo"><a href="#"><em>LAB</em> 3</a></span>
 			<a href="#menu">Menu</a>
 		</header>
 
@@ -97,7 +97,7 @@
 				</header>
 				<section class="posts">
 					<article>
-						<span class="image"><img src="images/pic01.jpg" alt=""></span>
+						<span class="image"><img src="{{ asset("img/code2.jpg") }}" alt="" width="200px"></span>
 						<div class="content">
 							<p>Phasellus in ante vitae nibh porttitor tempus vitae ante. Lorem blandit dolor elementum dolor. Sed quat diam, aliquet tempus felis. Phasellus et magna vitae sed porttitor tempus vitae ut ante lorem blandit.</p>
 							<ul class="actions">
@@ -122,7 +122,7 @@
 							<p>09.04.16</p>
 							<h4>Magna etiam sed lorem ipsum dolor amet</h4>
 						</header>
-						<span class="image"><img src="images/pic02.jpg" alt=""></span>
+						<span class="image"><img src="{{ asset("img/project-planning.jpg") }}" alt="" width="200px"></span>
 						<div class="content">
 							<p>Phasellus in ante vitae nibh porttitor tempus vitae ut ante. Vestibulum blandit dolor elementum viverra. Sed quat a diam, aliquet tempus felis. Phasellus et magna vitae nibh porttitor tempus vitae.</p>
 							<ul class="actions">
@@ -135,7 +135,7 @@
 							<p>08.28.16</p>
 							<h4>Sed feugiat et mauris adipiscing dolor</h4>
 						</header>
-						<span class="image"><img src="images/pic03.jpg" alt=""></span>
+						<span class="image"><img src="{{ asset("img/printedcharts.jpg") }}" alt="" width="200px"></span>
 						<div class="content">
 							<p>Phasellus in ante vitae nibh porttitor tempus vitae ut ante. Vestibulum blandit dolor elementum viverra. Sed quat a diam, aliquet tempus felis. Phasellus et magna vitae nibh porttitor tempus vitae.</p>
 							<ul class="actions">
@@ -148,7 +148,7 @@
 							<p>08.22.16</p>
 							<h4>Tellus magna dolore sed elementum</h4>
 						</header>
-						<span class="image"><img src="images/pic04.jpg" alt=""></span>
+						<span class="image"><img src="{{ asset("img/printedcharts.jpg") }}" alt="" width="200px"></span>
 						<div class="content">
 							<p>Phasellus in ante vitae nibh porttitor tempus vitae ut ante. Vestibulum blandit dolor elementum viverra. Sed quat a diam, aliquet tempus felis. Phasellus et magna vitae nibh porttitor tempus vitae.</p>
 							<ul class="actions">

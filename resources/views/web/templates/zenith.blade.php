@@ -2,7 +2,7 @@
 <header id="header">
 
 	<!-- Logo -->
-	<a class="logo" href="index.html"><strong>Zenith</strong> <span>by Pixelarity</span></a>
+	<a class="logo" href="index.html"><strong>LAB 3</strong></a>
 
 	<!-- Nav -->
 	<nav id="nav">
@@ -35,28 +35,28 @@
 <div id="banner">
 	<article data-position="bottom right">
 		<div class="inner">
-			<img src="images/banner01.jpg" alt="">
+			<img src="{{ asset("img/project-planning.jpg") }}" alt="">
 			<h1>Accumsan nibh interdum</h1>
 			<p>Integer velit at tortor commodo dolor nullam veroeros</p>
 		</div>
 	</article>
 	<article data-position="bottom right">
 		<div class="inner">
-			<img src="images/banner02.jpg" alt="">
+			<img src="{{ asset("img/code1.jpg") }}" alt="">
 			<h1>Magna sed ipsum</h1>
 			<p>Integer velit at tortor commodo dolor nullam veroeros</p>
 		</div>
 	</article>
 	<article data-position="bottom right">
 		<div class="inner">
-			<img src="images/banner03.jpg" alt="">
+			<img src="{{ asset("img/printedcharts.jpg") }}" alt="">
 			<h1>Veroeros blandit</h1>
 			<p>Integer velit at tortor commodo dolor nullam veroeros</p>
 		</div>
 	</article>
 	<article data-position="bottom right">
 		<div class="inner">
-			<img src="images/banner04.jpg" alt="">
+			<img src="{{ asset("img/workgroup.jpg") }}" alt="">
 			<h1>Veroeros blandit</h1>
 			<p>Integer velit at tortor commodo dolor nullam veroeros</p>
 		</div>
@@ -106,7 +106,7 @@
 		<section class="posts-grid">
 			<article>
 				<div class="image fit">
-					<a href="#"><img src="images/pic02.jpg" alt="" /></a>
+					<a href="#"><img src="{{ asset("img/calendar.jpg")}}" alt="" /></a>
 				</div>
 				<h3>Dolore tempus</h3>
 				<p>Felis orci imperdiet lacus, sed pretium justo dolor eros congue velit. Proin tellus lorem, vestibulum sed volutpat quis, adipiscing auctor sapien curabitur.</p>
@@ -116,7 +116,7 @@
 			</article>
 			<article>
 				<div class="image fit">
-					<a href="#"><img src="images/pic03.jpg" alt="" /></a>
+					<a href="#"><img src="{{ asset("img/checkingstatistics.jpg")}}" alt="" /></a>
 				</div>
 				<h3>Magna etiam</h3>
 				<p>Felis orci imperdiet lacus, sed pretium justo dolor eros congue velit. Proin tellus lorem, vestibulum sed volutpat quis, adipiscing auctor sapien curabitur.</p>
@@ -126,7 +126,7 @@
 			</article>
 			<article>
 				<div class="image fit">
-					<a href="#"><img src="images/pic04.jpg" alt="" /></a>
+					<a href="#"><img src="{{ asset("img/irongiant.jpg")}}" alt="" /></a>
 				</div>
 				<h3>Lacus auctor</h3>
 				<p>Felis orci imperdiet lacus, sed pretium justo dolor eros congue velit. Proin tellus lorem, vestibulum sed volutpat quis, adipiscing auctor sapien curabitur.</p>
@@ -136,7 +136,7 @@
 			</article>
 			<article>
 				<div class="image fit">
-					<a href="#"><img src="images/pic05.jpg" alt="" /></a>
+					<a href="#"><img src="{{ asset("img/blueprint.jpg")}}" alt="" /></a>
 				</div>
 				<h3>Pretium justo</h3>
 				<p>Felis orci imperdiet lacus, sed pretium justo dolor eros congue velit. Proin tellus lorem, vestibulum sed volutpat quis, adipiscing auctor sapien curabitur.</p>
@@ -146,7 +146,7 @@
 			</article>
 			<article>
 				<div class="image fit">
-					<a href="#"><img src="images/pic06.jpg" alt="" /></a>
+					<a href="#"><img src="{{ asset("img/books.jpg")}}" alt="" /></a>
 				</div>
 				<h3>Velit tellus</h3>
 				<p>Felis orci imperdiet lacus, sed pretium justo dolor eros congue velit. Proin tellus lorem, vestibulum sed volutpat quis, adipiscing auctor sapien curabitur.</p>
@@ -156,7 +156,7 @@
 			</article>
 			<article>
 				<div class="image fit">
-					<a href="#"><img src="images/pic07.jpg" alt="" /></a>
+					<a href="#"><img src="{{ asset("img/code2.jpg")}}" alt="" /></a>
 				</div>
 				<h3>Etiam sapien</h3>
 				<p>Felis orci imperdiet lacus, sed pretium justo dolor eros congue velit. Proin tellus lorem, vestibulum sed volutpat quis, adipiscing auctor sapien curabitur.</p>
@@ -180,8 +180,8 @@
 							<h3>Amet dolore consequat sed magna</h3>
 						</header>
 						<div class="post-content">
-							<div class="image">
-								<a href="#"><img src="images/pic08.jpg" alt="" /></a>
+							<div class="image fit">
+								<a href="#"><img src="{{ asset("img/virtualreality.jpg")}}" alt="" /></a>
 							</div>
 							<div>
 								<p>Aenean eget velit ut arcu placerat dolore suscipit eu quis velit. Pellentesque habitant morbi senectus etiam netus et malesuada fames ac turpis egestas. Nunc lacus sit amet sed neque eleifend consequat sit amet id felis. Curabitur sed mattis commodo luctus. Morbi nec ornare justo. Fusce iaculis lacus vitae commodo.</p>
@@ -197,8 +197,8 @@
 							<h3>Feugiat senectus etiam egestas</h3>
 						</header>
 						<div class="post-content">
-							<div class="image">
-								<a href="#"><img src="images/pic09.jpg" alt="" /></a>
+							<div class="image fit">
+								<a href="#"><img src="{{ asset("img/bikes.jpg")}}" alt="" /></a>
 							</div>
 							<div>
 								<p>Aenean eget velit ut arcu placerat dolore suscipit eu quis velit. Pellentesque habitant morbi senectus etiam netus et malesuada fames ac turpis egestas. Nunc lacus sit amet sed neque eleifend consequat sit amet id felis. Curabitur sed mattis commodo luctus. Morbi nec ornare justo. Fusce iaculis lacus vitae commodo.</p>
@@ -302,7 +302,7 @@
 					<h3>Contact Us</h3>
 				</header>
 				<section class="image fit">
-					<img src="images/pic10.jpg" alt="" />
+					<img src="{{ asset("img/robos.png")}}" alt="" />
 				</section>
 				<section>
 					<ul class="contact-icons">

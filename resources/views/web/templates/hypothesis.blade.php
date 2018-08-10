@@ -6,7 +6,7 @@
 
 		<!-- Logo -->
 		<div class="logo">
-			<a href="#"><strong>Hypothesis</strong></a>
+			<a href="#"><strong><em>LAB</em> <strong>3</strong></strong></a>
 		</div>
 
 		<!-- Nav -->
@@ -69,7 +69,7 @@
 				</div>
 			</div>
 		</div>
-		<video src="images/banner.mp4" muted autoplay loop playsinline></video>
+		<video src="{{ asset("templates/hypthesis/images/banner.mp4") }}" muted autoplay loop playsinline></video>
 	</section>
 
 	<!-- Section -->
@@ -92,7 +92,7 @@
 							<p>Praesent dapibus, neque id cursus fauci quam erat volutpat nam dui mitin.</p>
 						</li>
 					</ul>
-					<span class="image"><img src="images/pic01.jpg" alt="" /></span>
+					<span class="image"><img src="{{ asset("img/project-planning.jpg") }}" alt="" /></span>
 					<ul>
 						<li>
 							<h4>Neque veroeros</h4>
@@ -118,7 +118,7 @@
 							<p>Sed adipiscing ornare risus. Morbi lorem lentesque egestas sem consequat.</p>
 						</li>
 					</ul>
-					<span class="image"><img src="images/pic02.jpg" alt="" /></span>
+					<span class="image"><img src="{{ asset("img/calendar.jpg") }}" alt="" /></span>
 					<ul>
 						<li>
 							<h4>Quis portitor</h4>
@@ -144,7 +144,7 @@
 							<p>Donec nec justo eget felis facilisis ferme Aenean dignissim pellen.</p>
 						</li>
 					</ul>
-					<span class="image"><img src="images/pic03.jpg" alt="" /></span>
+					<span class="image"><img src="{{ asset("img/printedcharts.jpg") }}" alt="" /></span>
 					<ul>
 						<li>
 							<h4>Magna accumsan</h4>
@@ -167,7 +167,7 @@
 			<p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue eu vulpu magna erat. Aliquam erat volutpat. Nam dui mi tincidunt magna accumsan.</p>
 		</header>
 		<div class="inner">
-			<span class="image main"><img src="images/pic04.jpg" alt="" /></span>
+			<span class="image main"><img src="{{ asset("img/workgroup.jpg") }}" alt="" /></span>
 		</div>
 	</section>
 
@@ -181,7 +181,7 @@
 			<div class="posts">
 				<div>
 					<article>
-						<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
+						<a href="#" class="image"><img src="{{ asset("img/motherboard.jpg") }}" alt="" /></a>
 						<div class="content">
 							<h3>Blandit aliquam</h3>
 							<p>Feugiat ultrices sed nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Lorem nulla sed gravida non magna.</p>
@@ -211,7 +211,7 @@
 						</div>
 					</article>
 					<article>
-						<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
+						<a href="#" class="image"><img src="{{ asset("img/robos.png") }}" alt="" /></a>
 						<div class="content">
 							<h3>Gravida veroeros</h3>
 							<p>Phasellus ultrices sed nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Lorem nulla sed gravida non.</p>
@@ -223,7 +223,7 @@
 				</div>
 				<div>
 					<article>
-						<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
+						<a href="#" class="image"><img src="{{ asset("img/virtualreality.jpg") }}" alt="" /></a>
 						<div class="content">
 							<h3>Ipsum volutpat</h3>
 							<p>Donec consectetuer ligula vulputate sem tristique cursus. Lorem nulla sed gravida non. Phasellus et ultricesnulla quis nibh. Quisque amet lorem lectus. Magna consectetuer ligula vulputate sem tristique cursus magna.</p>

@@ -1,6 +1,6 @@
 <!-- Header -->
 <header id="header" class="alt">
-	<h1 id="logo"><a href="#">Archetype</a></h1>
+	<h1 id="logo"><a href="#"><em>LAB</em> <strong>3</strong></a></h1>
 	<nav id="nav">
 	<ul>
 		<li><a href="#">Inicio</a></li>
@@ -83,7 +83,7 @@
 		</header>
 		<div class="posts">
 			<section class="post">
-				<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+				<a href="#" class="image"><img src="{{ asset("img/blueprint.jpg") }}" alt="" /></a>
 				<div class="content">
 					<h3>Ultricies sed lorem</h3>
 					<p>Lorem ipsum dolor sit amet interdum arcu pulvinar lorem ipsum sed feugiat etiam sed magna adipiscing.</p>
@@ -91,7 +91,7 @@
 				</div>
 			</section>
 			<section class="post">
-				<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+				<a href="#" class="image"><img src="{{ asset("img/printedcharts.jpg") }}" alt="" /></a>
 				<div class="content">
 					<h3>Imperdiet egestas</h3>
 					<p>Lorem ipsum dolor sit amet interdum arcu pulvinar lorem ipsum sed feugiat etiam sed magna adipiscing.</p>
@@ -99,7 +99,7 @@
 				</div>
 			</section>
 			<section class="post">
-				<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+				<a href="#" class="image"><img src="{{ asset("img/motherboard.jpg") }}" alt="" /></a>
 				<div class="content">
 					<h3>Urna varius</h3>
 					<p>Lorem ipsum dolor sit amet interdum arcu pulvinar lorem ipsum sed feugiat etiam sed magna adipiscing.</p>
@@ -107,7 +107,7 @@
 				</div>
 			</section>
 			<section class="post">
-				<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
+				<a href="#" class="image"><img src="{{ asset("img/code1.jpg") }}" alt="" /></a>
 				<div class="content">
 					<h3>Elit ligula commodo</h3>
 					<p>Lorem ipsum dolor sit amet interdum arcu pulvinar lorem ipsum sed feugiat etiam sed magna adipiscing.</p>
@@ -115,7 +115,7 @@
 				</div>
 			</section>
 			<section class="post">
-				<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
+				<a href="#" class="image"><img src="{{ asset("img/virtualreality.jpg") }}" alt="" /></a>
 				<div class="content">
 					<h3>Rutrum sed erat</h3>
 					<p>Lorem ipsum dolor sit amet interdum arcu pulvinar lorem ipsum sed feugiat etiam sed magna adipiscing.</p>
@@ -123,7 +123,7 @@
 				</div>
 			</section>
 			<section class="post">
-				<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
+				<a href="#" class="image"><img src="{{ asset("img/checkingstatistics.jpg") }}" alt="" /></a>
 				<div class="content">
 					<h3>Cubilia metus</h3>
 					<p>Lorem ipsum dolor sit amet interdum arcu pulvinar lorem ipsum sed feugiat etiam sed magna adipiscing.</p>

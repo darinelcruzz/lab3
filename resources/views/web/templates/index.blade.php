@@ -13,10 +13,11 @@
 
 		@include("web.templates.$template")
 
-		<!-- Scripts -->
 		<script src="{{ asset("templates/$template/assets/js/jquery.min.js") }}"></script>
 		<script src="{{ asset("templates/$template/assets/js/jquery.dropotron.min.js") }}"></script>
+		<script src="{{ asset("templates/$template/assets/js/jquery.selectorr.min.js") }}"></script>
 		<script src="{{ asset("templates/$template/assets/js/jquery.scrollex.min.js") }}"></script>
+		<script src="{{ asset("templates/$template/assets/js/jquery.scrolly.min.js") }}"></script>
 		<script src="{{ asset("templates/$template/assets/js/browser.min.js") }}"></script>
 		<script src="{{ asset("templates/$template/assets/js/breakpoints.min.js") }}"></script>
 		<script src="{{ asset("templates/$template/assets/js/util.js") }}"></script>

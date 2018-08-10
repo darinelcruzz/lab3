@@ -1,6 +1,6 @@
 <!-- Header -->
 <header id="header" class="alt">
-	<h1><a id="logo" href="#">Cogent</a></h1>
+	<h1><a id="logo" href="#"><strong><em>LAB</em> <strong>3</strong></strong></a></h1>
 	<nav id="nav">
 		<ul>
 			<li><a href="#">Inicio</a></li>
@@ -40,7 +40,7 @@
 		<div class="chrome">
 			<span class="url">http://untitledapp.tld</span>
 		</div>
-		<img src="images/banner.jpg" alt="" />
+		<img src="{{ asset("img/checkingstatistics.jpg")}}" alt="" />
 	</div>
 </section>
 
@@ -70,7 +70,7 @@
 		<section class="spotlight left">
 			<div class="row gtr-200 aln-middle">
 				<div class="col-4 col-12-medium">
-					<span class="image fit"><img src="images/pic01.jpg" alt="" /></span>
+					<span class="image fit"><img src="{{ asset("img/workgroup.jpg") }}" alt="" /></span>
 				</div>
 				<div class="col-8 col-12-medium">
 					<h2>Etiam lorem sed tempus magna adipiscing</h2>
@@ -85,7 +85,7 @@
 					<p>Phasellus tortor magna, convallis sed felis ut, tempor volutpat lorem ipsum quam. Phasellus porta lacinia commodo. Vestibulum enim nibh adipiscing rhoncus at tincidunt ac, feugiat ac dolor. Sed nec odio porta magna feugiat quam posuere feugiat. Nullam porttitor sodales. Tempor volutpat lorem ipsum quam. Phasellus porta lacinia commodo. Vestibulum enim nibh adipiscing rhoncus at tincidunt.</p>
 				</div>
 				<div class="col-4 col-12-medium imp-medium">
-					<span class="image fit"><img src="images/pic02.jpg" alt="" /></span>
+					<span class="image fit"><img src="{{ asset("img/calendar.jpg") }}" alt="" /></span>
 				</div>
 			</div>
 		</section>

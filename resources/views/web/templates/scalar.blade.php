@@ -1,7 +1,7 @@
 <!-- Header -->
 <header id="header">
 	<div class="container">
-		<h1><a href="#" class="icon fa-cube">Scalar</a></h1>
+		<h1><a href="#" class="icon fa-cube"><em>LAB</em> <strong>3</strong></a></h1>
 		<nav id="nav">
 			<ul>
 				<li class="current"><a href="#">Inicio</a></li>
@@ -74,7 +74,7 @@
 			<div class="container">
 				<div class="row gtr-200">
 					<div class="col-5 col-12-medium">
-						<span class="image fit style1"><img src="images/pic01.jpg" alt="" /></span>
+						<span class="image fit style1"><img src="{{ asset("img/workgroup.jpg") }}" alt="" /></span>
 					</div>
 					<div class="col-7 col-12-medium">
 						<header>
@@ -134,7 +134,7 @@
 						<blockquote class="testimonial">
 							<p>Sed et liquam porttitor mauris sit orcintio enean magna amet consequat lorem ipsum dolor sit amet!</p>
 							<cite>
-								<span class="image style2"><img src="images/avatar.png" alt="" /></span>
+								<span class="image style2"><img src="{{ asset("templates/scalar/images/avatar.png") }}" alt="" /></span>
 								<span class="name">Jane Doe</span>
 								<span class="title">CEO</span>
 							</cite>
@@ -144,7 +144,7 @@
 						<blockquote class="testimonial">
 							<p>Sed et liquam porttitor mauris sit orcintio enean magna amet consequat lorem ipsum dolor sit amet!</p>
 							<cite>
-								<span class="image style2"><img src="images/avatar.png" alt="" /></span>
+								<span class="image style2"><img src="{{ asset("templates/scalar/images/avatar.png") }}" alt="" /></span>
 								<span class="name">Jane Doe</span>
 								<span class="title">CEO</span>
 							</cite>
@@ -154,7 +154,7 @@
 						<blockquote class="testimonial">
 							<p>Sed et liquam porttitor mauris sit orcintio enean magna amet consequat lorem ipsum dolor sit amet!</p>
 							<cite>
-								<span class="image style2"><img src="images/avatar.png" alt="" /></span>
+								<span class="image style2"><img src="{{ asset("templates/scalar/images/avatar.png") }}" alt="" /></span>
 								<span class="name">Jane Doe</span>
 								<span class="title">CEO</span>
 							</cite>

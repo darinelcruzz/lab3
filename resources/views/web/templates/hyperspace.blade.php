@@ -18,7 +18,7 @@
 	<!-- Intro -->
 		<section id="intro" class="wrapper style1 fullscreen fade-up">
 			<div class="inner">
-				<h1>Hyperspace</h1>
+				<h1>LAB3</h1>
 				<p>Cras aliquam amet adipiscing nibh faucibus suscipit ut Parturient<br />
 				col accumsan est arcu donec sed Eleifend Integer.</p>
 				<ul class="actions">
@@ -30,7 +30,7 @@
 	<!-- One -->
 		<section id="one" class="wrapper style2 spotlights">
 			<section>
-				<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
+				<a href="#" class="image"><img src="{{ asset("img/motherboard.jpg")}}" alt="" data-position="center center" /></a>
 				<div class="content">
 					<div class="inner">
 						<h2>Sed ipsum dolor</h2>
@@ -42,7 +42,7 @@
 				</div>
 			</section>
 			<section>
-				<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
+				<a href="#" class="image"><img src="{{ asset("img/virtualreality.jpg")}}" alt="" data-position="top center" /></a>
 				<div class="content">
 					<div class="inner">
 						<h2>Feugiat consequat</h2>
@@ -54,7 +54,7 @@
 				</div>
 			</section>
 			<section>
-				<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
+				<a href="#" class="image"><img src="{{ asset("img/blueprint.jpg")}}" alt="" data-position="25% 25%" /></a>
 				<div class="content">
 					<div class="inner">
 						<h2>Ultricies aliquam</h2>
