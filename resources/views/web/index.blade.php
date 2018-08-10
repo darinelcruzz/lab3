@@ -22,7 +22,7 @@
 <section id="one" class="tiles">
 	<article>
 		<span class="image">
-			<img src="{{ asset('forty/images/pic01.jpg') }}" alt="" />
+			<img src="{{ asset('forty/images/pic11.jpg') }}" alt="" />
 		</span>
 		<header class="major">
 			<h3><a href="#" class="link">Aliquam</a></h3>
