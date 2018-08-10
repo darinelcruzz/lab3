@@ -25,24 +25,24 @@
             <section>
                 <div class="contact-method">
                     <span class="icon alt fa-envelope"></span>
-                    <h3>Email</h3>
+                    <h3>Correo</h3>
                     <a href="#">labtr3s@gmail.com</a>
                 </div>
             </section>
             <section>
                 <div class="contact-method">
                     <span class="icon alt fa-phone"></span>
-                    <h3>Phone</h3>
-                    <span>(000) 000-0000 x12387</span>
+                    <h3>Celular</h3>
+                    <span>961-154-3273</span>
                 </div>
             </section>
             <section>
                 <div class="contact-method">
                     <span class="icon alt fa-home"></span>
-                    <h3>Address</h3>
-                    <span>1234 Somewhere Road #5432<br />
-                    Nashville, TN 00000<br />
-                    United States of America</span>
+                    <h3>Dirección</h3>
+                    <span>2a Calle Oriente Sur #235<br />
+                    Tuxtla Gutiérrez, Chis 29000<br />
+                    México</span>
                 </div>
             </section>
         </section>
